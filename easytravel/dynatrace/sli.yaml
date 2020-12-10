@@ -1,0 +1,6 @@
+spec_version: 0.1.4
+indicators:
+  jm_tx_med: metricSelector=jmeter.usermetrics.transaction.meantime:avg:names
+  mymetrics: metricSelector=jmeter.usermetrics.transaction.mintime:avg:names
+  rt_ss: metricSelector=calc:service.teststepresponsetime:merge(0):avg:names
+  svc2svc: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names&entitySelector=type(SERVICE)
