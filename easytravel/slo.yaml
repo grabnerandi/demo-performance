@@ -6,84 +6,84 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
-- sli: svc2svc_2CalculateRecommendations
+- sli: svc2svcx_2CalculateRecommendations
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_3Login
+- sli: svc2svcx_3Login
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_4Random_Search
+- sli: svc2svcx_4Random_Search
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_5Select_Journey
+- sli: svc2svcx_5Select_Journey
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_7Mock_Creditcard_Number
+- sli: svc2svcx_7Mock_Creditcard_Number
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_Basic_Check
+- sli: svc2svcx_Basic_Check
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_Invalidate_Session
+- sli: svc2svcx_Invalidate_Session
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_8Submit_Payment
+- sli: svc2svcx_8Submit_Payment
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_9Finish_Payment
+- sli: svc2svcx_9Finish_Payment
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_6Select_Payment
+- sli: svc2svcx_6Select_Payment
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_1Home_Page
+- sli: svc2svcx_1Home_Page
   pass:
   - criteria:
     - <=2
   warning: []
   weight: 1
   key_sli: false
-- sli: svc2svc_
+- sli: svc2svcx_
   pass:
   - criteria:
     - <=2
