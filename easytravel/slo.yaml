@@ -90,96 +90,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: jm_tx_med_4Random_Search
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_2CalculateRecommendations
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_Invalidate_Session
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_3Login
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_9Finish_Payment
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_5Select_Journey
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_8Submit_Payment
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_1Home_Page
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_6Select_Payment
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
-- sli: jm_tx_med_7Mock_Creditcard_Number
-  pass:
-  - criteria:
-    - <=1500
-  warning:
-  - criteria:
-    - <3000
-  weight: 1
-  key_sli: false
 - sli: rt_ss_4Random_Search
   pass:
   - criteria:
@@ -355,6 +265,96 @@ objectives:
 - sli: mymetrics_7Mock_Creditcard_Number
   pass: []
   warning: []
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_4Random_Search
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_2CalculateRecommendations
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_Invalidate_Session
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_3Login
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_9Finish_Payment
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_5Select_Journey
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_8Submit_Payment
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_1Home_Page
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_6Select_Payment
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
+  weight: 1
+  key_sli: false
+- sli: jm_tx_med_7Mock_Creditcard_Number
+  pass:
+  - criteria:
+    - <=1500
+  warning:
+  - criteria:
+    - <300
   weight: 1
   key_sli: false
 total_score:
