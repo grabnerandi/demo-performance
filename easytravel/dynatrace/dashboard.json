@@ -83,7 +83,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Test Step Service Calls;sli=svc2svc;pass=\u003c=2",
+        "customName": "Test Step Service Calls;sli=svc2svcx;pass=\u003c=2",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
